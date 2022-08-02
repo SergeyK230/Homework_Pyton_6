@@ -2,3 +2,8 @@
 #  Пример:
 #  
 #  [1, 2, 3, 5, 1, 5, 3, 10] => [2, 10]
+
+list = [1, 2, 3, 5, 1, 5, 3, 10]
+list = [i for i in list if list.count(i) == 1]
+
+print(list)
